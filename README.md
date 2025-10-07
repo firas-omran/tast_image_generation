@@ -28,7 +28,8 @@
 
 1️⃣ **Клонировать репозиторий**
 ```bash
-git clone https://github.com/username/flutter_ai_mock_generator.git
+git clone https://github.com/firas-omran/tast_image_generation.git
+
 ```
 2️⃣ **Перейти в папку проекта**
 ```bash
