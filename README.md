@@ -29,13 +29,17 @@
 1️⃣ **Клонировать репозиторий**
 ```bash
 git clone https://github.com/username/flutter_ai_mock_generator.git
-
+```
 2️⃣ **Перейти в папку проекта**
 ```bash
 cd image_generation_task
+```
 3️⃣ **Установить зависимости**
 ```bash
 flutter pub get
+```
 4️⃣ **Запустить приложение**
+```bash
 flutter run
+```
 
