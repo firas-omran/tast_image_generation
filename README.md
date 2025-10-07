@@ -33,7 +33,7 @@ git clone https://github.com/firas-omran/tast_image_generation.git
 ```
 2️⃣ **Перейти в папку проекта**
 ```bash
-cd image_generation_task
+cd tast_image_generation
 ```
 3️⃣ **Установить зависимости**
 ```bash
