@@ -1,16 +1,41 @@
 # image_generation_task
 
-A new Flutter project.
 
-## Getting Started
+## Описание
+Простое Flutter-приложение с 2 экранами (Prompt → Result) с использованием **flutter_bloc** для управления состоянием.  
+Приложение генерирует мок-изображения по введенному промпту с лоадером, обработкой ошибок и анимацией.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## Возможности
+- Поле ввода промпта с проверкой на пустой ввод
+- Кнопка "Generate" неактивна при пустом поле
+- Экран результата с лоадером и анимациями
+- Повторная попытка при ошибке генерации (Retry)
+- Кнопка "Try another" для новой случайной картинки
+- Кнопка "New prompt" сохраняет ранее введенный текст
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Запуск проекта
+
+### Необходимые инструменты
+- Flutter 3+ установлен
+- Xcode (для iOS) или Android Studio (для Android)
+- Устройство или эмулятор/симулятор
+
+### Пошаговое руководство
+
+1️⃣ **Клонировать репозиторий**
+```bash
+git clone https://github.com/username/flutter_ai_mock_generator.git
+
+2️⃣ **Перейти в папку проекта**
+```bash
+cd image_generation_task
+3️⃣ **Установить зависимости**
+```bash
+flutter pub get
+4️⃣ **Запустить приложение**
+flutter run
+
